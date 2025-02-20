@@ -1,0 +1,228 @@
+@media (max-width: 991px) {
+    .main-navbar{
+        padding: 0px 20px 0px 20px;
+    }
+   /* .menu-cell a.nav-link {
+        background-color: var(--color-secondary);
+    }*/
+    .navbar {
+         background-color: #ffffffdb;!important;
+    }
+    .menu-cell a.nav-link{
+        color: var(--color-primary)!important;
+    }
+}
+
+@media (max-width: 767px) {
+.footer-widget{
+    margin: 20px 0px 20px 0px;
+}
+    .advent-content {
+        text-align: center;
+        max-width: 90%;
+        padding: 10px 10px;
+    }
+
+    .advent-content h6 {
+        flex-grow: 0;
+        margin-bottom: 10px;
+    }
+
+    .advent-content .btn {
+        transform: none;
+        margin-left: 20px;
+        margin-top: 0px;
+    }
+    .discount-div{
+         padding: 0px 20px 0px 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .menu-cell a.nav-link {
+      color: var(--color-default) !important;
+    }
+}
+
+@media (max-width: 575px) {
+    .advent-content {
+        padding: 8px 15px;
+    }
+    .slider-banner img{
+        min-height: 315px;
+    }
+
+    .place-image{
+        margin: 0px 0px 40px 0px;
+        overflow: hidden;
+    }
+    .advent-content h6 {
+        font-size: 14px;
+    }
+    .carousel-caption h5{
+        display: none;
+    }
+    .carousel-caption h3{
+        font-size: 30px;
+    }
+    .carousel-caption p{
+        font-size: 24px;
+    }
+    .carousel-caption p span{
+        display: none;
+    }
+    .advent-content .btn {
+        padding: 2px 5px;
+        font-size: 10px;
+    }
+    .cs_post_details h2 {
+        font-size: 26px;
+        font-weight: 700;
+    }
+}
+@media (max-width: 991px) {
+  .cs_btn.cs_style_1 {
+    padding: 11px 25px;
+  }
+}
+@media (max-width: 420px) {
+    .testimonial{
+        top: 73px;
+        overflow: hidden;
+    }
+    .review{
+        min-height: 440px !important;
+        overflow: hidden;
+    }
+    .carousel-caption h3{
+        font-size: 25px;
+    }
+    .carousel-caption p{
+        font-size: 18px;
+    }
+}
+@media (max-width: 320px) {
+    .advent-content {
+        padding: 5px 10px;
+    }
+    .advent-content h6 {
+        font-size: 12px;
+    }
+
+    .advent-content .btn {
+        padding: 1px 4px;
+        font-size: 9px;
+    }
+}
+
+/*-----------package-detail-page----------*/
+
+@media (max-width: 991px) {
+  .cs_grid_3 {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+  .cs_tab_links.cs_style_1 li a {
+    padding: 8px 25px;
+  }
+  .cs_tab_links.cs_style_1 {
+    gap: 10px;
+  }
+}
+@media (max-width: 1400px) {
+  .cs_grid_3 .cs_gallery_item {
+    height: 330px;
+  }
+}
+@media (max-width: 1199px) {
+  .cs_grid_3 .cs_gallery_item {
+    height: 280px;
+  }
+}
+@media (max-width: 480px) {
+  .cs_grid_3 .cs_gallery_item {
+    height: initial;
+  }
+  .cs_tour_details_title small{
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 992px) {
+  .cs_grid_3 .cs_gallery_item {
+    grid-column: auto/span 2;
+  }
+  .cs_grid_3 .cs_gallery_item:nth-child(1) {
+    grid-column: auto/span 3;
+  }
+  .cs_grid_3 .cs_gallery_item:nth-child(6) {
+    grid-column: auto/span 3;
+  }
+}
+@media (max-width: 767px) {
+    .cs_list_item .cs_list_content {
+        padding-right: 40px;
+    }
+}
+@media (max-width: 575px) {
+  .cs_grid_3 .cs_gallery_item:hover .cs_gallery_icon {
+    transform: translate(-50%, -50%) scale(0.7);
+  }
+  .cs_list_wrapper li {
+    width: 100%;
+  }
+}
+/*----------contactpage-------------*/
+@media(min-width:1192px){
+   .fm-textar {
+    height: 110px;
+    padding: 15px;
+}
+}
+@media(min-width:992px){
+.contact-imgs img {
+    height: 550px !important;
+ }
+}
+@media(max-width:991px){
+
+.form-last {
+    justify-content: center;
+    display: flex;
+     }
+    .content-color h6{
+      text-align: center;
+    }
+    .content-color h1{
+      text-align: center;
+
+    }
+    .footer-pd-4{
+        padding: 20px 0px 20px 0px;
+    }
+}
+ @media (max-width: 768px) {
+    .contact_content {
+        padding: 30px 15px;
+    }
+
+    .contact_content h2 {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+
+    .fm-section, .fm-textar {
+        padding: 10px;
+        height: auto;
+    }
+
+    .btn-submit {
+        width: 100%;
+    }
+}
+@media(max-width:575px{
+ .google-map{
+  height: 320px !important;
+ }
+
+}
